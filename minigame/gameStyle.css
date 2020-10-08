@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.topbar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+    border-bottom-width: 0.1px;
+    border-bottom-color: rgb(197, 197, 197);
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.hala2 {
+    font-family: Gothic A1;
+}
+
+.pho2 {
+    font-family: Nanum Gothic;
+    font-weight: bold;
+}
+
+.topbar2_main {
+    font-size: 15px;
+    margin-left: 25%;
+}
+
+.topbar2_menu {
+    font-family: Gothic A1;
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    font-size: 13px;
+    margin-right: 25%;
+}
+
+.topbar2_menu li {
+    padding: 8px 30px;
+}
+
+.topbar2_menu a:hover {
+    color: rgb(184, 184, 184);
+}
+
+canvas {
+    align-content: center;
+    padding-top: 150px;
+    background: rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
+}
