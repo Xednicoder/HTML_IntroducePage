@@ -79,7 +79,7 @@ function collisionDetection() {
 function drawBall() {
     ctx.beginPath();
     ctx.arc(x, y, ballRadius, 0, Math.PI * 2);
-    ctx.fillStyle = "rgb(255, 181, 181)";
+    ctx.fillStyle = "#f1cb4e";
     ctx.fill();
     ctx.closePath();
 }
@@ -87,7 +87,7 @@ function drawBall() {
 function drawPaddle() {
     ctx.beginPath();
     ctx.rect(paddleX, canvas.height - paddleHeight, paddleWidth, paddleHeight);
-    ctx.fillStyle = "rgb(255, 97, 97)";
+    ctx.fillStyle = "#85b6f7";
     ctx.fill();
     ctx.closePath();
 }
