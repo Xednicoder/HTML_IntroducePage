@@ -60,7 +60,7 @@
     }
     
     .scene.one {
-        background-image: url(/parallax/img/bg_main.jpeg);
+        background-image: url(https://xednicoder.github.io/IntroducePage/parallax/img/bg_main.jpeg);
     }
     
     .title {
@@ -117,7 +117,7 @@
         position: relative;
         width: 50%;
         height: 100%;
-        background-image: url(parallax/img/container01.jpeg);
+        background-image: url(https://xednicoder.github.io/IntroducePage/parallax/img/container01.jpeg);
         background-size: 100%;
         float: left;
     }
@@ -154,7 +154,7 @@
         position: relative;
         width: 50%;
         height: 100%;
-        background-image: url(parallax/img/container02.jpeg);
+        background-image: url(https://xednicoder.github.io/IntroducePage/parallax/img/container02.jpeg);
         background-size: 100%;
         float: left;
     }
@@ -189,4 +189,75 @@
     .footbar_link i {
         color: gray;
         padding: 7px;
+    }
+    
+    .container3 {
+        padding-left: 25%;
+        padding-right: 25%;
+        height: 900px;
+    }
+    
+    .topsub {
+        padding-top: 50px;
+        font-size: 45px;
+        padding-bottom: 0px;
+    }
+    
+    .topsub p {
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    .mypic {
+        background-image: url(https://xednicoder.github.io/IntroducePage/about/haltion.jpg);
+        background-size: 100%;
+        height: 600px;
+    }
+    
+    .container4 {
+        position: relative;
+        align-items: center;
+        height: 300px;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    
+    .leftbar {
+        position: relative;
+        width: 48%;
+        height: 100%;
+        float: left;
+        margin-right: 15px
+    }
+    
+    .blabla p {
+        font-family: Gothic A1;
+        font-size: 15px;
+    }
+    
+    .blabla2 p {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 20px;
+    }
+    
+    .blabla3 p {
+        font-family: Gothic A1;
+        font-size: 15px;
+    }
+    
+    .rightbar {
+        position: relative;
+        width: 48%;
+        height: 100%;
+        float: left;
+        margin-left: 15px;
+    }
+    
+    .blabla4 p {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 20px;
+    }
+    
+    .blabla5 p {
+        font-family: Gothic A1;
+        font-size: 15px;
     }
