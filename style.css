@@ -1,3 +1,192 @@
-.class {
-    background-color: black
-}
+    body {
+        margin: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid;
+        border-bottom-width: 0.1px;
+        border-bottom-color: rgb(197, 197, 197);
+        position: fixed;
+        height: 70px;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+    }
+    
+    .hala {
+        font-family: Gothic A1;
+    }
+    
+    .pho {
+        font-family: Nanum Gothic;
+        font-weight: bold;
+    }
+    
+    .topbar_main {
+        font-size: 15px;
+        margin-left: 25%;
+    }
+    
+    .topbar_menu {
+        font-family: Gothic A1;
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+        font-size: 13px;
+        margin-right: 25%;
+    }
+    
+    .topbar_menu li {
+        padding: 8px 30px;
+    }
+    
+    .topbar_menu a:hover {
+        color: rgb(184, 184, 184);
+    }
+    
+    .scene {
+        height: 80vh;
+        overflow: hidden;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .scene.one {
+        background-image: url(/parallax/img/bg_main.jpeg);
+    }
+    
+    .title {
+        margin-top: 520px;
+        background-size: cover;
+        height: 10vh;
+        background-color: rgba( 255, 255, 255, 0.3);
+    }
+    
+    .title h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 33px;
+        padding-top: 13px;
+        margin-bottom: 0px;
+        color: white;
+        text-align: center;
+    }
+    
+    .title h2 {
+        font-family: Gothic A1;
+        font-size: 13px;
+        margin-top: 5px;
+        color: white;
+        text-align: center;
+    }
+    
+    .container {
+        align-items: center;
+        height: 450px;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    
+    .container div:hover {
+        background-color: rgb(255, 212, 212);
+        transition: 1.5s;
+    }
+    
+    .container .box {
+        width: 50%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        float: left;
+    }
+    
+    .container .box p {
+        font-size: 37px;
+        font-family: Gothic A1, sans-serif;
+        text-align: center;
+        padding-top: 170px;
+    }
+    
+    .container .aboutpic {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        background-image: url(parallax/img/container01.jpeg);
+        background-size: 100%;
+        float: left;
+    }
+    
+    .container2 {
+        position: relative;
+        align-items: center;
+        height: 450px;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    
+    .container2 div:hover {
+        background-color: rgb(189, 210, 255);
+        transition: 1.5s;
+    }
+    
+    .container2 .box2 {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        float: left;
+    }
+    
+    .container2 .box2 p {
+        font-size: 37px;
+        font-family: Gothic A1, sans-serif;
+        text-align: center;
+        padding-top: 170px;
+    }
+    
+    .container2 .aboutpic2 {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        background-image: url(parallax/img/container02.jpeg);
+        background-size: 100%;
+        float: left;
+    }
+    
+    .footbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+    }
+    
+    .footbar_center {
+        font-size: 13px;
+        color: gray;
+        margin-left: 45%;
+        text-align: center;
+    }
+    
+    .footbar_link {
+        font-family: Gothic A1;
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+        font-size: 15px;
+        margin-right: 25%;
+        padding: 8px 30px;
+    }
+    
+    .footbar_link i {
+        color: gray;
+        padding: 7px;
+    }
