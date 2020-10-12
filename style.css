@@ -169,14 +169,14 @@
         z-index: 1;
     }
     
-    .footbar_center {
+    #footbar_center {
         font-size: 13px;
         color: gray;
         margin-left: 45%;
         text-align: center;
     }
     
-    .footbar_link {
+    #footbar_link {
         font-family: Gothic A1;
         display: flex;
         list-style: none;
@@ -186,7 +186,7 @@
         padding: 8px 30px;
     }
     
-    .footbar_link i {
+    #footbar_link i {
         color: gray;
         padding: 7px;
     }
